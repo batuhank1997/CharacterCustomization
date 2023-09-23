@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73b147195e6d490a923e8987820adbdd, type: 3}
+  m_Name: Dress 1
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: -8872502103473414298, guid: 7f9a0c018259148bbb032d517194426a, type: 3}
+  BodyPartType: 2
+  Removals: 020000000000000001000000
+  Id: clothes_fullbody_dress_CrossTieSlitPantsDress

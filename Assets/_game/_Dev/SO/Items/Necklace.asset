@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73b147195e6d490a923e8987820adbdd, type: 3}
   m_Name: Necklace
   m_EditorClassIdentifier: 
-  Prefab: {fileID: -7027446727601567639, guid: ea4f000ef919a484db81ca401c4101ba, type: 3}
+  Prefab: {fileID: -1398036268004044518, guid: 04bfdd9d37aec43bdbf0d163c371682a, type: 3}
   BodyPartType: 4
   Removals: 04000000
-  Id: clothes_accessory_necklace_Hearth

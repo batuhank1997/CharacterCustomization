@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73b147195e6d490a923e8987820adbdd, type: 3}
   m_Name: Choker
   m_EditorClassIdentifier: 
-  Prefab: {fileID: -9179068534720760657, guid: 5e422e789afa742d688e4aebb8e185d1, type: 3}
+  Prefab: {fileID: 7061712313189870144, guid: 7c2cfbc6596eb4b13b90087abd6e804b, type: 3}
   BodyPartType: 4
   Removals: 04000000
-  Id: clothes_accessory_necklace_Chocker

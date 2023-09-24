@@ -45,13 +45,9 @@ namespace _game._Dev.Scripts.Controllers
             var part = GetBodyPart(item.Type);
             var equippedItem = Instantiate(item, Vector3.zero, Quaternion.Euler(new Vector3(0, 180, 0)));
 
-            equippedItem.transform.SetParent(transform);
             part.CurrentItem = equippedItem.gameObject;
-
-            if (equippedItem.TryGetComponent(out AnimatedItem animatedItem))
-                animatedItem.SetAnimation();
-            else if(equippedItem.TryGetComponent(out AccessoryItem accessoryItem))
-                accessoryItem.SetParent(GetParentBone(equippedItem.Type));
+            
+            equippedItem.SetItem(equippedItem is AccessoryItem ? GetParentBone(equippedItem.Type) : transform);
         }
 
         private bodyPart GetBodyPart(BodyPartType type)

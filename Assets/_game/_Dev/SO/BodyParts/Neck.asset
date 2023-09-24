@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BodyPartType: 4
   UsableItems:
-  - {fileID: 11400000, guid: 4526169e2f256456ea6cc0cd709c12d3, type: 2}
   - {fileID: 11400000, guid: e04188aa50d8f4ca9ad4ae64173dbfdf, type: 2}
+  - {fileID: 11400000, guid: 4526169e2f256456ea6cc0cd709c12d3, type: 2}
